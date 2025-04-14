@@ -35,7 +35,7 @@ dir
 rmdir "latihan4.txt"
 ```
 
-# Mindahin lagu
+## Mindahin lagu
 
 ```cmd
 mkdir Blackpink Evanescence "Linkin Park"
