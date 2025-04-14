@@ -1,0 +1,14 @@
+mkdir "Latihan CLI Dasar"
+cd "Latihan CLI Dasar"
+type nul > latihan1.txt
+type nul > latihan2.txt
+type nul > latihan3.txt
+type nul > latihan4.txt
+type nul > latihan5.txt
+dir
+del "latihan4.txt"
+mkdir "latihan4.txt"
+del "latihan5.txt"
+mkdir "latihan5.txt"
+dir
+rmdir "latihan4.txt"
