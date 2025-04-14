@@ -2,7 +2,7 @@
 
 This is a bare minimum usage of CLI, according to mini task on **Day 1** (14/04/25)
 
-# Without loop
+## Without loop
 
 ```cmd
 mkdir "Latihan CLI Dasar"
@@ -21,7 +21,7 @@ dir
 rmdir "latihan4.txt"
 ```
 
-# With loop
+## With loop
 ```cmd
 mkdir "Latihan CLI Dasar"
 cd "Latihan CLI Dasar"
@@ -33,4 +33,11 @@ del "latihan5.txt"
 mkdir "latihan5.txt"
 dir
 rmdir "latihan4.txt"
+```
+
+# Mindahin lagu
+
+```cmd
+mkdir Blackpink Evanescence "Linkin Park"
+move "Blackpink - *.mp3" Blackpink & move "Evanescence - *.mp3" "Evanescence" & move "Linkin Park - *.mp3" "Linkin Park"
 ```
