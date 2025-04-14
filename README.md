@@ -35,9 +35,24 @@ dir
 rmdir "latihan4.txt"
 ```
 
-## Mindahin lagu
+# Moving songs
+
+## With "& move"
 
 ```cmd
+cd Downloads\lagu
 mkdir Blackpink Evanescence "Linkin Park"
 move "Blackpink - *.mp3" Blackpink & move "Evanescence - *.mp3" "Evanescence" & move "Linkin Park - *.mp3" "Linkin Park"
+```
+
+
+
+**↓ TAMBAHAN SETELAH CHECK-POINT ↓**
+
+## With loop 
+
+```cmd
+cd Downloads\lagu
+for %i in (Blackpink Evanescence "Linkin Park") do mkdir %i
+for %i in (Blackpink Evanescence "Linkin Park") do move %i*.mp3 .\%i
 ```
