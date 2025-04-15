@@ -54,5 +54,15 @@ move "Blackpink - *.mp3" Blackpink & move "Evanescence - *.mp3" "Evanescence" & 
 ```cmd
 cd Downloads\lagu
 for %i in (Blackpink Evanescence "Linkin Park") do mkdir %i
-for %i in (Blackpink Evanescence "Linkin Park") do move %i*.mp3 .\%i
+for %i in (Blackpink Evanescence "Linkin Park") do move %i*.mp3 %i
+```
+
+## With loop 2
+
+```cmd
+cd Downloads/lagu
+for %i in (Blackpink Evanescence "Linkin Park") do (
+mkdir %i
+move %i*.mp3 %i
+)
 ```
